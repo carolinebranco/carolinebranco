@@ -1,13 +1,11 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import Item from './components/Item.vue'
-import Footer from './components/Footer.vue'
+
 </script>
 
 <script>
 // import Dados from './Dados/Services.json';
-
 export default {
   data(){
     return{
@@ -15,7 +13,7 @@ export default {
     }
   },
   mounted(){
-    let target = "https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json";
+    let target = "Design sem nome.png";
     fetch(target)
       .then(res => res.json())
       .then(res => this.servicos = res)
@@ -25,9 +23,8 @@ export default {
 </script>
 
 <template>
-  <img alt="Profile" style="width:150px; border-radius:50%" src="https://avatars.githubusercontent.com/u/44410208?v=4" />
-  
-  <h1>Yuri Marcon</h1>
+  <img alt="Profile" style="width:150px; border-radius:50%" src="./assets/logo2.png" />
+  <h1>carol</h1>
   
   <blockquote cite="Mahatma Gandhi">
     <p>
@@ -55,12 +52,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #c3d3e4;
   margin-top: 60px;
   margin-bottom: 100px;
 }
 html{
-  background: url("https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483_960_720.jpg");
+  background: url("https://img.freepik.com/fotos-gratis/fundo-de-ficcao-cientifica-futurista-moderno_35913-2152.jpg?size=626&ext=jpg&ga=GA1.2.1685019074.1647624948");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
@@ -69,5 +66,6 @@ html{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 </style>
