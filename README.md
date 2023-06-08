@@ -1,7 +1,7 @@
 versao em vue da mesma lja 
 <template>
   <div class="store">
-    <h1>Bem-vindo à Nossa Loja</h1>
+    <h1>Bem-vindo à Nossa Loja kn</h1>
     <div class="product-list">
       <div v-for="product in products" :key="product.id" class="product">
         <img :src="product.image" :alt="product.name" />
