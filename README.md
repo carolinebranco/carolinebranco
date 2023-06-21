@@ -85,7 +85,7 @@ export default {
 
 .cart ul {
   list-style: none;
-  padding: 0;
+  padding 2;
 }
 
 </style>
