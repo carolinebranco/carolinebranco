@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Mini Delivery de Ervas</title>
+  <title>Mini Delivery</title>
 </head>
 <body>
   <div id="app">
