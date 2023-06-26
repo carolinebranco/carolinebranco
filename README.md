@@ -1,7 +1,23 @@
-versao em vue da mesma lja 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mini Delivery de Ervas</title>
+</head>
+<body>
+  <div id="app">
+    <!-- Seu código Vue.js aqui -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <script>
+    // Seu código Vue.js aqui
+  </script>
+</body>
+</html>
 <template>
   <div class="store">
-    <h1>Bem-vindo à Nossa Loja kn</h1>
+    <h1>Bem-vindo à Nossa Loja</h1>
     <div class="product-list">
       <div v-for="product in products" :key="product.id" class="product">
         <img :src="product.image" :alt="product.name" />
@@ -82,10 +98,4 @@ export default {
 .cart h2 {
   margin-bottom: 10px;
 }
-
-.cart ul {
-  list-style: none;
-  padding 2;
-}
-
 </style>
