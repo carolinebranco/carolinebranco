@@ -2,142 +2,84 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Mini Delivery</title>
+  <title>Caroline Fontana</title>
   <style>
     body {
+      background-color: #000;
+      color: #fff;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+    }
+
+    .header {
       background-color: #000;
-      color: #fff;
-    }
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       text-align: center;
+      padding: 50px 0;
     }
 
-    header {
-      background-color: #000;
-      padding: 20px;
-      text-align: center;
+    .header-container {
+      max-width: 600px;
+      margin: 0 auto;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 24px;
+    .neon-border {
+      font-size: 48px;
+      letter-spacing: 4px;
+      text-shadow: 0 0 20px #ff6ec7, 0 0 30px #ff6ec7, 0 0 40px #ff6ec7, 0 0 50px #ff6ec7, 0 0 70px #ff6ec7, 0 0 80px #ff6ec7, 0 0 100px #ff6ec7;
+      border: 2px solid #fff;
+      padding: 10px;
+    }
+
+    .contact-info {
+      margin-top: 20px;
+    }
+
+    .contact-link {
       color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
     }
 
-    .cover {
-      background-image: url("delivery_cover.jpg");
-      background-size: cover;
-      background-position: center;
-      height: 400px;
-    }
-
-    .cover-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      padding: 20px;
-      background-color: rgba(0, 0, 0, 0.5);
-      color: #fff;
-      text-align: center;
-    }
-
-    .cover-text h2 {
-      margin: 0;
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-
-    .cover-text p {
-      margin: 0;
+    .portfolio-button {
+      display: inline-block;
+      background-color: #ff6ec7;
+      color: #000;
       font-size: 18px;
-      font-family: Arial, sans-serif;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 30px;
+      text-decoration: none;
     }
 
-    .product {
-      margin: 20px;
-      padding: 20px;
-      background-color: #222;
-      border-radius: 5px;
+    .portfolio-button:hover {
+      background-color: #ff92d6;
     }
 
-    .product img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      margin-bottom: 10px;
-    }
-
-    .product h3 {
-      margin: 0;
-      font-size: 20px;
-      color: #fff;
-    }
-
-    .product p {
-      margin: 0;
-      font-size: 16px;
-      color: #fff;
-      font-family: Arial, sans-serif;
-    }
-
-    footer {
+    .footer {
       background-color: #000;
       padding: 20px;
       text-align: center;
-    }
-
-    footer p {
-      margin: 0;
-      font-size: 14px;
       color: #fff;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Mini Delivery</h1>
+  <header class="header">
+    <div class="header-container">
+      <h1 class="neon-border">Caroline Fontana</h1>
+      <p class="contact-info">
+        Contato: 
+        <a href="mailto:carolinebranco1@hotmail.com" class="contact-link">carolinebranco1@hotmail.com</a>
+        <a href="https://wa.me/055999582194" class="contact-link">055999582194</a>
+      </p>
+      <a href="https://github.com/carolinebranco" class="portfolio-button">Portfólio</a>
+    </div>
   </header>
-
-  <div class="container">
-    <div class="cover">
-      <div class="cover-text">
-        <h2>Bem-vindo à Mini Delivery!</h2>
-        <p>Faça seu pedido e entregaremos na sua porta.</p>
-        <button>Ver Cardápio</button>
-      </div>
-    </div>
-
-    <div class="product">
-      <img src="product1.jpg" alt="Produto 1">
-      <h3>Produto 1</h3>
-      <p>R$ 10.99</p>
-    </div>
-
-    <div class="product">
-      <img src="product2.jpg" alt="Produto 2">
-      <h3>Produto 2</h3>
-      <p>R$ 19.99</p>
-    </div>
-
-    <div class="product">m      <img src="product3.jpg" alt="Produto 3">
-      <h3>Produto 3</h3>
-      <p>R$ 7.99</p>
-    </div>
-  </div>
-
-  <footer>
-    <p>&copy; 2023 Mini Delivery. Todos os direitos reservados.</p>
+  <footer class="footer">
+    <p>Todos os direitos reservados &copy; 2023</p>
   </footer>
 </body>
 </html>
