@@ -13,7 +13,7 @@
     }
 
     .header {
-      background-color: #000;
+      background-color: #001;
       text-align: center;
       padding: 50px 0;
     }
